@@ -30,3 +30,20 @@ Wed, Mar 19, 2025  9:12:29 AM:
  tests:  1|4
 total_score: 10/70
 b2802c2
+Wed, Mar 19, 2025  9:20:54 AM: 
+ exercises.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:64:17: error: implicit declaration of function 'gest_size' [-Werror=implicit-function-declaration]
+    int tamano = gest_size(L);
+                 ^~~~~~~~~
+exercises.c:68:7: error: statement with no effect [-Werror=unused-value]
+       suma
+       ^~~~
+exercises.c:69:4: error: expected ';' before '}' token
+    }
+    ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d5e3f35

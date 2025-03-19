@@ -60,7 +60,14 @@ Crea una función que reciba una lista de enteros (int*) y
 retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
-   return 0;
+   int suma = 0;
+   int tamano = gest_size(L);
+   
+   for (int k = 0 ; k < tamano ; k++)
+   {
+      suma
+   }
+   return suma; //estaba return 0;
 }
 
 /*
