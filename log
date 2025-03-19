@@ -80,3 +80,22 @@ Wed, Mar 19, 2025  9:31:22 AM:
  tests:  2|3
 total_score: 20/70
 3bb66a4
+Wed, Mar 19, 2025  9:35:49 AM: 
+ exercises.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'eliminaElementos':
+exercises.c:88:20: error: comparison between pointer and integer [-Werror]
+       if (elemento == elem)
+                    ^~
+exercises.c:90:25: error: passing argument 2 of 'pushCurrent' makes pointer from integer without a cast [-Werror=int-conversion]
+          pushCurrent(L, elem);
+                         ^~~~
+In file included from exercises.c:6:0,
+                 from test.c:5:
+arraylist.h:23:6: note: expected 'void *' but argument is of type 'int'
+ void pushCurrent(List *L, void *dato);
+      ^~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+64f0218

@@ -81,6 +81,16 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
+   int tamano = get_size(L);
+   int* elemento = first(L);
+   for (int k = 0 ; k < tamano ; k++)
+   {
+      if (elemento == elem) 
+      {
+         pushCurrent(L, elem);
+      }
+      else elemento = next(L);
+   }
 
 }
 
