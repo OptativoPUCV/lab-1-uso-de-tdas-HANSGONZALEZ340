@@ -13,3 +13,14 @@ exercises.c:46:10: error: unused variable 'elemento' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 6a56891
+Wed, Mar 19, 2025  9:11:12 AM: 
+ exercises.c | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:50:9: error: 'num' undeclared (first use in this function)
+       *(num) = k;
+         ^~~
+exercises.c:50:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+28868e1
