@@ -124,3 +124,9 @@ exercises.c:90:10: error: dereferencing 'void *' pointer [-Werror]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 4a3e61c
+Wed, Mar 19, 2025  9:37:55 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|3
+total_score: 20/70
+81bf563
