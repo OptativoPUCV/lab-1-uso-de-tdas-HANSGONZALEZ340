@@ -43,6 +43,16 @@ Al finalizar retorna la lista creada.
 
 List* crea_lista() {
    List* L = create_list();
+   void* elemento = first(L);
+   for (int k = 1 ; k <= 10 ; k++)
+   {
+      int* valor = (int*)malloc(sizeof(int));
+      if (valor == NULL) EXIT_FAILURE;
+      *valor = k; //apunta a k
+      
+      void pushCurrent(List *L, void *valor); // Esta función inserta un nuevo elemento a continuación del actual de la lista.
+   }
+
    return L;
 }
 
