@@ -46,8 +46,8 @@ List* crea_lista() {
 
    for (int k = 1 ; k <= 10 ; k++)
    {
-      int* valor = (int*) malloc(sizeof(int*));
-      *(num) = k;
+      int* valor = (int*) malloc(sizeof(int));
+      *(valor) = k;
       pushBack(L, valor); //sin puntero, ya que lo recibe como puntero
    }
 

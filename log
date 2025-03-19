@@ -24,3 +24,9 @@ exercises.c:50:9: error: 'num' undeclared (first use in this function)
 exercises.c:50:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 28868e1
+Wed, Mar 19, 2025  9:12:29 AM: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|4
+total_score: 10/70
+b2802c2
