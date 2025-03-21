@@ -128,10 +128,11 @@ int parentesisBalanceados(char *cadena) {
       if (*c == '('){
          pushFront(L, c);
       } else if (*c == ')'){
-         if (popFront(L)== NULL) return 0;
-
+         if (popFront(L)== NULL){
+            return 0;
+         } 
       }
-      c++;    
+      c++;     
    }
 
    return (get_size(L) == 0) ? 1 : 0;
