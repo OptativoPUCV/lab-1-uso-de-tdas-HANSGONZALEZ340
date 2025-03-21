@@ -186,3 +186,14 @@ exercises.c:105:11: error: unused variable 'sux' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 271e60e
+vi., 21 de mar. de 2025 17:51:20: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'copia_pila':
+exercises.c:105:11: error: unused variable 'aux' [-Werror=unused-variable]
+    Stack* aux = create_list();
+           ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+34255e9
