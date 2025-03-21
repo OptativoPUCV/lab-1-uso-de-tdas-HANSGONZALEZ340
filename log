@@ -203,3 +203,14 @@ vi., 21 de mar. de 2025 17:54:26:
  tests:  4|1
 total_score: 50/70
 90f9209
+vi., 21 de mar. de 2025 18:18:48: 
+ exercises.c | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:126:9: error: unused variable 'dato' [-Werror=unused-variable]
+    int* dato = 0;
+         ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+e638a4e
