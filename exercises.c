@@ -128,9 +128,10 @@ int parentesisBalanceados(char *cadena) {
       if (*c == '('){
          pushFront(L, c);
       } else if (*c == ')'){
-         if (popFront(L)== NULL){
+         if (get_size(L)== 0){
             return 0;
          } 
+         popFront(L);
       }
       c++;     
    }
