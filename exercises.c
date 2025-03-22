@@ -102,7 +102,7 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack* P1, Stack* P2) {
-   Stack* aux = create_list();
+   Stack* aux = create_stack();
    int* dato;
    while ((dato = popFront(P1)) != NULL){
       pushFront(aux, dato);
